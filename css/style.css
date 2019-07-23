@@ -85,6 +85,9 @@ header span:last-child{
   vertical-align: middle;
 }
 #map .addr .metro span{ color: #9a48b1;}
+#map .map{
+  height: 300px;
+}
 
 #call{
   padding-top: 45px;
