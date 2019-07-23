@@ -1,0 +1,106 @@
+/* style.css */
+/* 
+  메인컬러: #ef7a56
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{ list-style-type: none;}
+a{ text-decoration: none;}
+body{
+  font-size: 100%;
+  color: #333;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Nanum Myeongjo', serif;
+  text-align: center;
+}
+header{
+  font-family: 'Lucida Calligraphy', cursive;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  /* background: #eee; */
+}
+header span:first-child{
+  font-size: 22px;
+  display: block;
+  margin-left: 4em;
+}
+header span:last-child{
+  font-size: 55px;
+  color: #ef7a56;
+}
+
+/*  
+  비쥬얼 이미지 3장
+  750 x 430 px 
+  bg01.jpg ... bg03.jpg
+*/
+#visual{}
+#visual .bxslider{
+  width: 100%;
+}
+#visual .bxslider img{
+  width: 100%;
+}
+.bx-wrapper{ border: none !important;}
+
+#intro .info{
+  padding-bottom: 50px;
+}
+#intro .info h2{ margin-bottom: 1em;}
+#intro .info h2 span{ color: #ef7a56;}
+#intro .address{
+  background: #ef7a56;
+  padding: 45px;
+  padding-bottom: 45px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+}
+#intro .address span{
+  display: block;
+  margin-bottom: 0.5em;
+  color: #fff;
+}
+
+#map{
+  padding-top: 60px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+#map h2{
+  font-size: 20px;
+  margin-bottom: 1.4em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+#map .addr{ margin-bottom: 45px;}
+#map .addr li{
+  margin-bottom: 1em;
+  line-height: 1.5em;
+}
+#map .addr .metro img,
+#map .addr .bus img{ 
+  width: 18px;
+  vertical-align: middle;
+}
+#map .addr .metro span{ color: #9a48b1;}
+
+#call{
+  padding-top: 45px;
+  padding-bottom: 45px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+#call h2{ margin-bottom: 1em;}
+#call a img{ width: 24px;}
+#call a:first-child img{ margin-right: 1.6em;}
+#call a:last-child img{ margin-left: 1.6em;}
+
+footer{
+  font-family: 'Nanum Gothic', sans-serif;
+  background: #ef7a56;
+  color: #fff;
+  padding: 1.2em;
+  line-height: 1.5em;
+}
+footer a{ color:#fff;}
